@@ -1,0 +1,181 @@
+body{
+  color:rgb(93,74,208);
+  font-family: arial;
+  background-color: black;
+}
+
+#page{
+  position:absolute;
+  left:0;
+  top:0;
+  width:clamp(1900px, 100%, 2000px);
+  height:clamp(800px, 100%, 100%);
+  background-color:#000000;
+
+}
+
+#lorenz_attractor_canvas{
+  position:absolute;
+  right:0;
+  width:49.5%;
+  height:100%;
+  background-color:#000000;
+  top:0;
+}
+
+#rotationPause{
+  position: absolute;
+  top:10;
+  right:10;
+  width:50;
+  height:50;
+  background-color: #404040;
+  border: none;
+  border-radius:15px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  color: #808080;
+  overflow: hidden;
+  text-align: center;
+  display: none;
+}
+
+#rotationPause:hover{
+  background-color: #606060;
+  color: #202020;
+}
+
+#sectionLeft{
+  position:absolute;
+  left:0;
+  width:49.5%;
+  height:100%;
+  background-color:#101010;
+  color:
+  top:0;
+}
+
+#lorenz_preview{
+  position:absolute;
+  left:4%;
+  bottom:15%;
+  width:92%;
+  height:50%;
+  background-color:#000000;
+  border-radius:15px;
+}
+
+#animationReload{
+  position: absolute;
+  top:36%;
+  left:90.2%;
+  width:45;
+  height:45;
+  background-color: #404040;
+  border: none;
+  border-radius:15px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  color: #808080;
+  overflow: hidden;
+  text-align: center;
+}
+
+#animationReload:hover{
+  background-color: #606060;
+  color: #202020;
+}
+
+.slider {
+  position:absolute;
+  width:60%;
+  height:1%;
+  background-color:#404040;
+  left:50;
+  border-radius:10px;
+}
+
+.sliderText{
+  position:absolute;
+  width:60%;
+  height:1%;
+  left:50;
+  border-radius:10px;
+  text-align:center;
+}
+
+.slider::-moz-range-thumb {
+  width: 10px;
+  height: 20px;
+  background: rgb(93,74,208);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#valueResetButton{
+  position:absolute;
+  width:3.5%;
+  left:32.5%;
+  height:3.5%;
+  top:30%;
+  background-color: rgb(93,74,208);
+  border: none;
+  border-radius:15px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  text-align: center;
+}
+
+#valueResetButton:hover{
+  background-color: rgb(63,44,178);
+  color:white;
+}
+
+#formula{
+  position: absolute;
+  top: 11%;
+  right: 5%;
+  text-align:center;
+}
+
+#generate_button{
+  position:absolute;
+  width:25%;
+  left:37.5%;
+  height:10%;
+  bottom:2.5%;
+  background-color: #404040;
+  border: none;
+  border-radius:15px;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  color: #808080;
+  overflow: hidden;
+}
+
+#generate_button:hover{
+  background-color: #606060;
+  color: #202020;
+}
+
+#errorMessage{
+  position:absolute;
+  width:15%;
+  left:65%;
+  height:8%;
+  bottom:3.5%;
+  background-color: #404040;
+  border-radius:15px;
+  color: #808080;
+  text-align: center;
+  display:none;
+}
+
+#infoText{
+  position:absolute;
+  right:10px;
+  bottom:10px;;
+  color: rgb(93,74,208);
+  text-align: center;
+}
